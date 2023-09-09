@@ -1,0 +1,16 @@
+.Main-videocard{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: last baseline;
+   align-items: end;
+   padding-bottom: 30px;
+   justify-content: space-around;
+   width: 99vw;
+   position: relative;
+}
+
+
+#videocard-video{
+   border-radius: 7px;    
+}
+

@@ -1,0 +1,49 @@
+.header_titulo-imagen{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 5%;
+    box-shadow: gray 5px;
+    gap: 40px;
+}
+
+.header_titulo-imagen:hover{
+    animation-name: encogerse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    flex-wrap: wrap;
+}
+
+
+@keyframes encogerse {
+
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.1);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+    
+    
+}
+#header-titulo{
+    font-size: 2em;
+    font-weight: 500;
+    text-shadow: gray 1.5px 1px;
+    color: rgba(42, 122, 228, 1);
+}
+
+
+#header-logo{
+    position: relative;
+    left: 25px;
+    width: 150px;
+    height: 150px;
+    box-shadow: rgb(238, 222, 222) 1px 2px;
+}

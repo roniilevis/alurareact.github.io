@@ -1,0 +1,35 @@
+#Boton-get{
+    background-color: rgb(114, 171, 255);
+    width: 180px;
+    height: 54px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+    text-shadow: gray 1.5px 1px;
+    color: rgba(245, 245, 245, 1);
+    border: none;
+}
+
+
+#Boton-get:hover{
+    animation-name: interactuar;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transform: scale(1.1);
+}
+
+@keyframes interactuar {
+
+    0%{
+        transform: scale(1.1);
+    }
+
+    50%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1.1);
+    }
+    
+}
