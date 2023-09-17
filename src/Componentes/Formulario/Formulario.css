@@ -1,0 +1,41 @@
+body{
+    border: solid 1px;
+    height: 80vh;
+    width: 99vw;
+    display: grid;
+    justify-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.Formulario-contenedor .input-config{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size:xx-large;
+}
+
+.Formulario-contenedor{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 99vw;
+    height: 80vh;
+    text-align: center;
+}
+
+.input-config{
+    margin: 25px;
+    width: 45%;
+    height: 50px;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    text-justify: kashida;
+}
+
+
+#w3review{
+    height: 250px;
+}

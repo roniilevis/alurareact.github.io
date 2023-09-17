@@ -1,14 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
 import './reset.css';
-import Body from './Componentes/Body/Body';
+import Header from './Componentes/Header/Header';
+import Home from "./Componentes/pages/Home"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import PaginaForm from './Componentes/pages/PaginaForm';
+import BotonGet from './Componentes/Botones/BotonGet';
 
 
 
-function App() {
+ function App() {
   return (
-    <div className="App">
-      <Body/>
+    <div>
+     <Router>
+         <Header />
+       <Routes>
+         <Route exact path="/" element={<Home />}></Route>
+         <Route exact path="/Formulario" element={<BotonGet />}></Route>
+       </Routes>
+     </Router>
+    
     </div>
+    
   );
 }
 
